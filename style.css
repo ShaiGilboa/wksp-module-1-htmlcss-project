@@ -258,6 +258,7 @@ button > a {
     position: relative;
     top: 100px;
     font-size: 3rem;
+    margin-bottom: 0;
 }
 
 .gradient > p {
@@ -314,7 +315,6 @@ button > a {
     display: flex;
     justify-content: center;
     color: white;
-    visibility: visible;
     position: absolute;
     background-color:  rgba(0,0,0,0.5);
     height: 100%;
@@ -564,21 +564,9 @@ footer > .row {
         align-items: center;
     }
 
-    .text-on-photo {
-        position: relative;
-        z-index: 2;
-        justify-content: center;
-        text-align: center;
-        background-color: rgba(0,0,0,0.5);
-        height: 100%;
-        width: 100%;
-        left:50%;
-    }
-    .text-on-photo:hover {
+    
+    .grid-cell:hover > .text-on-photo2 {
         visibility: visible;
-    }
-    .grid-cell:hover > .text-on-photo {
-        display: block;
     }
   }
 
