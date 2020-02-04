@@ -189,6 +189,7 @@ button > a {
 
 .cool-part {
     position: relative;
+    height: 100%;
 }
 
 .cool-heading {
@@ -265,6 +266,7 @@ button > a {
 }
 
 .grid {
+
 }
 
 .grid-container {
@@ -472,7 +474,9 @@ footer > .row {
         margin: 0;
         z-index: 1;
         top: 5.5vh;
-        right:-85vw;
+        right: 0;
+        height: 0;
+        width: 155px;
     }
     
     .products-dropdown-item {
